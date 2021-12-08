@@ -5,9 +5,11 @@ In order to run this program, at least Java 16 is required and Maven must be ins
 	brew install maven
 
 ## Compile
-
-	mvn install **OR** mvn package after the required dependencies have been installed
-
+```
+	mvn install 
+	OR after the required dependencies have been installed
+	mvn package 
+```
 ## Run
 
 	java -jar target/pandemic-1.0.jar <INPUT>
@@ -29,10 +31,9 @@ The input must be formatted like the following structure:
 
 
 ###### Things to improve
-```
+
 * Make terminal output optional;
 	
 * Handle extremely large grids; probably by capping it
 	
 * More extensive testing
-```
