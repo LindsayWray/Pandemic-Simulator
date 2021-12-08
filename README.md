@@ -1,4 +1,4 @@
-PANDEMIC SIMULATOR
+# PANDEMIC SIMULATOR
 
 	In order to run this program, at least Java 16 is required and Maven must be installed
 		```brew install maven```
