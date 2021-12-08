@@ -4,29 +4,26 @@ In order to run this program, at least Java 16 is required and Maven must be ins
 
 	brew install maven
 
-###### Compile
+## Compile
 
-	mvn install 
-**OR**
-	
-	mvn package after the required dependencies have been installed
+	mvn install **OR** mvn package after the required dependencies have been installed
 
-###### Run
+## Run
 
 	java -jar target/pandemic-1.0.jar <INPUT>
 	
-###### Input example
+## Input example
 
 The input must be formatted like the following structure:
 
 > 8 7 3 6 "[<4,7>,<4,8>,<5,8>,<6,8>]"
 
 
-###### Run tests
+## Run tests
 
 	mvn test
 
-###### Remove executables
+## Remove executables
 
 	mvn clean
 
