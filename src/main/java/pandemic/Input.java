@@ -12,7 +12,7 @@ public class Input{
 	private int _rounds;
 	private int _infectionThreshold;
 	private int _recoveryThreshold;
-	private List <Coordinates> _patientsZero; //list with each element containing a coordinate
+	private List <Coordinates> _patientsZero; //List with each element containing a coordinate
 
 	public Input(String args[]) throws Exception {
 		try {
@@ -21,8 +21,8 @@ public class Input{
 			_infectionThreshold = Integer.parseUnsignedInt(args[2]);
 			_recoveryThreshold = Integer.parseUnsignedInt(args[3]);
 		} catch (NumberFormatException e) {
-			System.err.println("Argument must be an integer");
-			throw new Exception("Argument must be an integer");
+			System.err.println("Argument must be a valid positive integer");
+			throw new Exception("Argument must be a valid positive integer");
 		}
 
 		Boolean isMatch = Pattern.compile("^\\[(<\\d+,\\d+>,)*<\\d+,\\d+>\\]$") // regex expression to match the input pattern
@@ -39,8 +39,8 @@ public class Input{
 			.map(MatchResult::group)	//convert to a stream of strings
 			.map(Integer::parseInt)		//convert to a stream of ints
 			.toArray(Integer[]::new);
-			
-		_patientsZero = new ArrayList<Coordinates>(); //list is abstract, call subclass arraylist constructor to initialize a list
+
+		_patientsZero = new ArrayList<Coordinates>(); //List is abstract, call subclass arraylist constructor to initialize a List
 		for(int i = 0; i < numbers.length; i += 2){
 			_patientsZero.add(new Coordinates(numbers[i], numbers[i + 1]));
 		}
