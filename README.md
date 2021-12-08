@@ -33,6 +33,9 @@ It must be formatted like the following structure:
 
 	mvn clean
 
+## Preview
+![Simulation](https://user-images.githubusercontent.com/69161963/145284447-84b2cf2f-7985-4b6d-a6da-519cda2accf9.gif)
+
 
 
 
