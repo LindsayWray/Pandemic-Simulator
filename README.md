@@ -17,11 +17,12 @@ OR after the required dependencies have been installed
 	
 ## Input example
 
-The INPUT must be formatted like the following structure:
+The INPUT consecutively represents a gridsize, number of rounds, infection threshold, recovery threshold, and the coordinates of an x amount of infected persons
+
+It must be formatted like the following structure:
 
 >		8 7 3 6 "[<4,7>,<4,8>,<5,8>,<6,8>]"
 
-Which consecutively represents a gridsize, number of rounds, infection threshold, recovery threshold, and the coordinates of an x amount of infected persons
 
 
 ## Run tests
