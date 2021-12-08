@@ -2,16 +2,16 @@
 
 In order to run this program, at least Java 16 is required and Maven must be installed
 
-		```brew install maven```
+		brew install maven
 
 ## TO COMPILE
 
-	```mvn install```
-		OR ```mvn package``` after the required dependencies have been installed
+	mvn install 
+		OR mvn package after the required dependencies have been installed
 
 ## TO RUN
 
-	```java -jar target/pandemic-1.0.jar``` <INPUT>
+	java -jar target/pandemic-1.0.jar <INPUT>
 	
 ## INPUT EXAMPLE
 
@@ -22,11 +22,11 @@ The input must be formatted like the following structure:
 
 ## RUN TESTS
 
-	```mvn test```
+	mvn test
 
 ## REMOVE EXECUTABLES
 
-	```mvn clean```
+	mvn clean
 
 
 ## THINGS TO IMPROVE
