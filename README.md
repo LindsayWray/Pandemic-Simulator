@@ -21,7 +21,7 @@ The INPUT consecutively represents a gridsize, number of rounds, infection thres
 
 It must be formatted like the following structure:
 
->		8 7 3 6 "[<4,7>,<4,8>,<5,8>,<6,8>]"
+```8 7 3 6 "[<4,7>,<4,8>,<5,8>,<6,8>]"```
 
 
 
