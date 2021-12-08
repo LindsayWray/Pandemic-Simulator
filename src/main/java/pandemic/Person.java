@@ -1,3 +1,6 @@
+package pandemic;
+
+
 public class Person {
 	private Boolean _infected;
 
@@ -8,7 +11,6 @@ public class Person {
 	public Person(Boolean infected){
 		_infected = infected;
 	}
-
 	public	Boolean isInfected(){
 		return _infected;
 	}
