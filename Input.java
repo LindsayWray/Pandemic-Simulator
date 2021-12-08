@@ -9,7 +9,7 @@ public class Input{
 	private int _rounds;
 	private int _infectionThreshold;
 	private int _recoveryThreshold;
-	private List <Coordinates> _patientsZero;
+	private List <Coordinates> _patientsZero; //list with each element containing a coordinate
 
 	public Input(String args[]) {
 		try {
