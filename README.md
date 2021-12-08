@@ -21,7 +21,7 @@ The INPUT must be formatted like the following structure:
 
 >		8 7 3 6 "[<4,7>,<4,8>,<5,8>,<6,8>]"
 
-gridsize, number of rounds, infection threshold, recovery threshold, and the coordinates of an x amount of infected persons
+Which consecutively represents a gridsize, number of rounds, infection threshold, recovery threshold, and the coordinates of an x amount of infected persons
 
 
 ## Run tests
